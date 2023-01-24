@@ -5,7 +5,7 @@ This project work on when the accident happen then the accelerometer sensor get 
 
 
 
-## Components required for making this project
+## Components Used
 
 
 1. ATmega 328P Microcontroller(Arduino Nano)
