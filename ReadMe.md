@@ -1,4 +1,3 @@
-
 # Accident Alert with Child Unlocking System in Automobile
 
 This project work on when the accident happen then the accelerometer sensor get activated and send emergency help to the emergency contact details via "call or sms" with live "location" as well as in real-time the "child lock of all doors will unlock". And driver side door will open. 
