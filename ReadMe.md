@@ -6,16 +6,25 @@ This project work on when the accident happen then the accelerometer sensor get 
 
 ## Components Used
 
+### Hardware
+
 
 1. ATmega 328P Microcontroller(Arduino Nano)
-2. GPS Module(NEO-6M)
-3. GSM Module(SIM800l)
-4. Accelerometer Sensor(ADXL335)
-5. Servo Motor
-6. Buzzer, Switch, LEDs
-7. Resistor, Capacitor, Oscillator etc.
-8. Power Supply & Wires 
+2. ESP8266 (Node MCU)
+3. GPS Module(NEO-6M)
+4. GSM Module(SIM800l)
+5. Accelerometer Sensor(ADXL335)
+6. L298N 2A Motor Driver Controller 
+7. Servo Motor
+8. BO Motor, Wheel & Chasis
+9. Buzzer, Switch, LEDs
+10. Resistor, Capacitor, Oscillator etc.
+11. Power Supply & Wires 
 
+### Software
+
+1. VS Code (Arduino IDE Extension)
+2. Mobile Application (To control the WiFi based car)
 
 
 
@@ -52,10 +61,26 @@ This project work on when the accident happen then the accelerometer sensor get 
 
 
 
-## Code 
+## Code for collision detection
 
 ```javascript
 /* embed */
+
+
+
+
+
+
+
+
+```
+
+
+## Code for WiFi controlled car
+
+```javascript
+/* embed */
+
 
 
 
