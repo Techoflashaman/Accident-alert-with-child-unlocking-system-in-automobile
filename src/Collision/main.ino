@@ -27,8 +27,8 @@ TinyGPSPlus gps;
 String sms_status,sender_number,received_date,msg;
 String latitude, longitude;
 
-#define BUZZER 12
-#define BUTTON 11
+#define BUZZER 12   //Buzzer at microcontroller 12 PIN(Arduino UNO)
+#define BUTTON 11   //Button at microcontroller 11 PIN(Arduino UNO)
 
 #define xPin A1
 #define yPin A2
