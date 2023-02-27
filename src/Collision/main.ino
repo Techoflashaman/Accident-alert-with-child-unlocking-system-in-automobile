@@ -30,7 +30,7 @@ String latitude, longitude;
 #define BUZZER 12   //Buzzer at microcontroller 12 PIN(Arduino UNO)
 #define BUTTON 11   //Button at microcontroller 11 PIN(Arduino UNO)
 
-#define xPin A1
+#define xPin A1     //ADXL accelerometer sensor(x,y,z) Pin at microcontroller A1,A2,A3 PIN(Arduino UNO)
 #define yPin A2
 #define zPin A3
 
