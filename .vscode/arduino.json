@@ -1,6 +1,5 @@
 {
-    "configuration": "cpu=atmega328",
-    "board": "arduino:avr:nano",
+    "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
-    "sketch": "src\\main.ino"
+    "sketch": "Servo motor\\main.ino"
 }
