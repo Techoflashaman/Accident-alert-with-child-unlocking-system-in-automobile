@@ -10,6 +10,8 @@ https://embed.org.in
 #include <SoftwareSerial.h>
 #include <math.h>
 
+
+
 //emergency phone number with country code
 const String EMERGENCY_PHONE = "ENTER_EMERGENCY_PHONE_NUMBER";
 
@@ -51,16 +53,14 @@ unsigned long alert_delay = 30000; //30 seconds
 
 
 
+
+
 void setup()
 {
   
   
   Serial.begin(9600);  //Serial.println("Arduino serial initialize");
-  
-  
   sim800.begin(9600);  //Serial.println("SIM800L serial initialize");
-  
- 
   neogps.begin(9600);    //Serial.println("NEO6M serial initialize");
   
   pinMode(BUZZER, OUTPUT);

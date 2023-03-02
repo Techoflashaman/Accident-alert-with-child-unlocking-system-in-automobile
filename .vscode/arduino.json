@@ -1,5 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
-    "sketch": "Servo motor\\main.ino"
+    "sketch": "src\\Collision\\main.ino",
+    "port": "COM8"
 }

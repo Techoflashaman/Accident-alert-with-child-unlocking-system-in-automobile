@@ -18,7 +18,9 @@
             "includePath": [
                 "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\cores\\arduino",
                 "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\variants\\standard",
-                "C:\\Users\\amana\\Downloads\\arduino-nightly\\libraries\\Servo\\src",
+                "C:\\Users\\amana\\Downloads\\arduino-nightly\\libraries\\AltSoftSerial-master",
+                "C:\\Users\\amana\\Downloads\\arduino-nightly\\libraries\\TinyGPSPlus\\src",
+                "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src",
                 "c:\\users\\amana\\downloads\\arduino-nightly\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
                 "c:\\users\\amana\\downloads\\arduino-nightly\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "c:\\users\\amana\\downloads\\arduino-nightly\\hardware\\tools\\avr\\avr\\include"
