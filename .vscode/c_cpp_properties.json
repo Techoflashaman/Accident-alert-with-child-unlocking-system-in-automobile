@@ -17,7 +17,7 @@
             "intelliSenseMode": "gcc-x64",
             "includePath": [
                 "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\cores\\arduino",
-                "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\variants\\standard",
+                "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\variants\\eightanaloginputs",
                 "C:\\Users\\amana\\Downloads\\arduino-nightly\\libraries\\AltSoftSerial-master",
                 "C:\\Users\\amana\\Downloads\\arduino-nightly\\libraries\\TinyGPSPlus\\src",
                 "C:\\Users\\amana\\Downloads\\arduino-nightly\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src",
@@ -33,7 +33,7 @@
             "defines": [
                 "F_CPU=16000000L",
                 "ARDUINO=10820",
-                "ARDUINO_AVR_UNO",
+                "ARDUINO_AVR_NANO",
                 "ARDUINO_ARCH_AVR",
                 "__DBL_MIN_EXP__=(-125)",
                 "__HQ_FBIT__=15",

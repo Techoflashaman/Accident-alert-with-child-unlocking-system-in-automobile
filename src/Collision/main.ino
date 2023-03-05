@@ -46,7 +46,7 @@ int xaxis = 0, yaxis = 0, zaxis = 0;
 int deltx = 0, delty = 0, deltz = 0;
 int vibration = 2, devibrate = 75;
 int magnitude = 0;
-int sensitivity = 100;
+int sensitivity = 170;
 double angle;
 boolean impact_detected = false;
 //Used to run impact routine every 2mS.
