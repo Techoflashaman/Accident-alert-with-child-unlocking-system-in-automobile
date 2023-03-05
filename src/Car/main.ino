@@ -4,12 +4,12 @@ embed
 https://embed.org.in
 */
 
-#define ENA   14          // Enable/speed motors Right        GPIO14(D5)
-#define ENB   12          // Enable/speed motors Left         GPIO12(D6)
+#define ENA   0          // Enable/speed motors Right        GPIO0(D3)
+#define ENB   2          // Enable/speed motors Left         GPIO2(D4)
 #define IN_1  15          // L298N in1 motors Right           GPIO15(D8)
 #define IN_2  13          // L298N in2 motors Right           GPIO13(D7)
-#define IN_3  2           // L298N in3 motors Left            GPIO2(D4)
-#define IN_4  0           // L298N in4 motors Left            GPIO0(D3)
+#define IN_3  14           // L298N in3 motors Left          GPIO14(D5)
+#define IN_4  12           // L298N in4 motors Left          GPIO12(D6)  
 
 #include <ESP8266WiFi.h>          //Include ESP8266WiFi Library
 #include <WiFiClient.h>           //Include WiFiClient Library
@@ -19,7 +19,7 @@ String command;             //String to store app command state.
 int speedCar = 800;         // 400 - 1023.
 int speed_Coeff = 3;
 
-const char* ssid = "AIM CAMP";
+const char* ssid = "Car";
 ESP8266WebServer server(80);
 
 void setup() {

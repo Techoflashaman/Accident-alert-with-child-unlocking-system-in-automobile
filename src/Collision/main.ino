@@ -31,6 +31,9 @@ String latitude, longitude;
 
 #define BUZZER 12   //Buzzer at microcontroller 12 PIN(Arduino UNO)
 #define BUTTON 11   //Button at microcontroller 11 PIN(Arduino UNO)
+#define LEDR 5      //LED at microcontroller 5 PIN(Arduino UNO)
+#define LEDL 6      //LED at microcontroller 6 PIN(Arduino UNO)
+
 
 #define xPin A1     //ADXL accelerometer sensor(x,y,z) Pin at microcontroller A1,A2,A3 PIN(Arduino UNO)
 #define yPin A2
@@ -157,7 +160,7 @@ void loop()
 
 
 void Impact()     //Impact() function
-  
+   
 {
 
   time1 = micros(); // resets time value
