@@ -46,7 +46,7 @@ int xaxis = 0, yaxis = 0, zaxis = 0;
 int deltx = 0, delty = 0, deltz = 0;
 int vibration = 2, devibrate = 75;
 int magnitude = 0;
-int sensitivity = 20;
+int sensitivity = 100;
 double angle;
 boolean impact_detected = false;
 //Used to run impact routine every 2mS.
@@ -67,6 +67,8 @@ void setup()
   neogps.begin(9600);    //Serial.println("NEO6M serial initialize");
   
   pinMode(BUZZER, OUTPUT);
+  pinMode(LEDR, OUTPUT);
+  pinMode(LEDL, OUTPUT);
   pinMode(BUTTON, INPUT_PULLUP);
   
   
@@ -120,6 +122,8 @@ void loop()
 
     getGps();
     digitalWrite(BUZZER, HIGH);
+    digitalWrite(LEDR, HIGH);
+    digitalWrite(LEDL, HIGH);
     impact_detected = true;
     impact_time = millis();
     
@@ -130,6 +134,8 @@ void loop()
   {
     if(millis() - impact_time >= alert_delay) {
       digitalWrite(BUZZER, LOW);
+      digitalWrite(LEDR, LOW);
+      digitalWrite(LEDL, LOW);
       makeCall();
       delay(1000);
       sendAlert();
@@ -141,6 +147,8 @@ void loop()
   if(digitalRead(BUTTON) == LOW){
     delay(200);
     digitalWrite(BUZZER, LOW);
+    digitalWrite(LEDR, LOW);
+    digitalWrite(LEDL, LOW);
     impact_detected = false;
     impact_time = 0;
   }
