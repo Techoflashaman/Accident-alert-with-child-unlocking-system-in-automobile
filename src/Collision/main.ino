@@ -46,7 +46,7 @@ int xaxis = 0, yaxis = 0, zaxis = 0;
 int deltx = 0, delty = 0, deltz = 0;
 int vibration = 2, devibrate = 75;
 int magnitude = 0;
-int sensitivity = 170;
+int sensitivity = 170;    //set sensitivity of ADXL345 accelerometer sensor
 double angle;
 boolean impact_detected = false;
 //Used to run impact routine every 2mS.
@@ -66,7 +66,7 @@ void setup()
   sim800.begin(9600);  //Serial.println("SIM800L serial initialize");
   neogps.begin(9600);    //Serial.println("NEO6M serial initialize");
   
-  pinMode(BUZZER, OUTPUT);
+  pinMode(BUZZER, OUTPUT);     //
   pinMode(LEDR, OUTPUT);
   pinMode(LEDL, OUTPUT);
   pinMode(BUTTON, INPUT_PULLUP);
