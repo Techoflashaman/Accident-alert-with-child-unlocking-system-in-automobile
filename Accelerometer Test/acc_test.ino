@@ -6,7 +6,7 @@ https://embed.org.in
 
 #include <math.h>
 
-#define xPin A1
+#define xPin A1 //Acceleromerter sensor PIN (x,y,z) attach to PIN A1,A2,A3 of microcontroller(Arduino Nano)
 #define yPin A2
 #define zPin A3
 
