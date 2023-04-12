@@ -1,6 +1,10 @@
-# Accident Alert with Child Unlocking System in Automobile
+# Accident Alert with Child Unlocking System in Automobile (Work in Progress...)
 
-This project work on when the accident happen then the accelerometer sensor get activated and send emergency help to the emergency contact details via "call or sms" with live "location" as well as in real-time the "child lock of all doors will unlock". Also driver side door will open. 
+The proposed system involves the utilization of an accelerometer sensor to detect the occurrence of a vehicular accident, followed by the automatic transmission of an emergency alert to predetermined contacts. The system would also enable the unlocking of all car doors with a child lock, while simultaneously providing real-time location information. The driver's side door would additionally be opened automatically.
+
+While such a system could offer considerable benefits in terms of accident response, it is crucial to consider its potential risks and limitations. For instance, the automatic unlocking of doors may expose occupants to risks in hazardous areas, and the accelerometer sensor may not always detect accidents in all scenarios.
+
+To ensure that the system does not compromise the safety and security of users, a comprehensive approach is necessary, including rigorous testing and validation to guarantee the system's reliability and minimal vulnerability to errors. Additionally, it may be necessary to include fail-safes or override mechanisms to prevent unintended consequences or errors. 
 
 
 
@@ -56,7 +60,11 @@ This project work on when the accident happen then the accelerometer sensor get 
 ## Code for collision detection
 
 ```javascript
-/* embed */
+/*
+Author : Mohd Aman Ansari
+embed
+https://embed.org.in
+*/
 
 
 
