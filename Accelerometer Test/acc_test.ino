@@ -1,9 +1,9 @@
 /*
-Author : Mohd Aman Ansari
-embed
-https://embed.org.in
+* Author : Mohd Aman Ansari
+* Date : 26/01/2023
+* embed
+* https://embed.org.in
 */
-
 #include <math.h>
 
 #define xPin A1 //Acceleromerter sensor PIN (x,y,z) attach to PIN A1,A2,A3 of microcontroller(Arduino Nano)
