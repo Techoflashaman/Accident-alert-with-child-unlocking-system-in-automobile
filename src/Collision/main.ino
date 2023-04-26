@@ -33,6 +33,7 @@ String latitude, longitude;
 #define BUTTON 11 // Button at microcontroller 11 PIN(Arduino UNO)
 #define LEDR 5    // LED at microcontroller 5 PIN(Arduino UNO)
 #define LEDL 6    // LED at microcontroller 6 PIN(Arduino UNO)
+#define LED_red 7 // LED at microcontroller 7 PIN(Arduino UNO)
 
 #define xPin A1 // ADXL accelerometer sensor(x,y,z) Pin at microcontroller A1,A2,A3 PIN(Arduino UNO)
 #define yPin A2
@@ -65,6 +66,7 @@ void setup()
   pinMode(BUZZER, OUTPUT);
   pinMode(LEDR, OUTPUT);
   pinMode(LEDL, OUTPUT);
+  pinMode(LED_red, OUTPUT);
   pinMode(BUTTON, INPUT_PULLUP);
 
   sms_status = "";
@@ -117,6 +119,7 @@ void loop()
 
     //    getGps();
     digitalWrite(BUZZER, HIGH);
+    digitalWrite(LED_red, HIGH);
     digitalWrite(LEDR, HIGH);
     digitalWrite(LEDL, HIGH);
 
@@ -131,6 +134,7 @@ void loop()
     if (millis() - impact_time >= alert_delay)
     {
       digitalWrite(BUZZER, LOW);
+      digitalWrite(LED_red, LOW);
       // digitalWrite(LEDR, LOW);
       // digitalWrite(LEDL, LOW);
 
@@ -148,6 +152,7 @@ void loop()
   {
     delay(200);
     digitalWrite(BUZZER, LOW);
+    digitalWrite(LED_red, LOW);
     digitalWrite(LEDR, LOW);
     digitalWrite(LEDL, LOW);
 
